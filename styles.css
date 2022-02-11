@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+} 
+
+body {
+width: 80vw;
+margin: 0 auto;
+background-color: #7BE0AD;
+}
+
+header{
+    color: rgb(0, 0, 0);
+    background-color: #AEE5D8;
+    text-align: center;
+}
+
+header img {
+height: 100px;
+
+}
+
+h1{
+    color:rgb(255, 255, 255);
+    background-color: #006D77;
+    text-align: center;
+}
+
+h2{
+color:rgb(0, 0, 0);
+}
+
+h4{
+    color: rgb(181, 253, 255);
+}
+
+main{
+    background-color:#AEE5D8;
+
+}
+section {
+    margin-top: 2rem;
+}
+
+#bio{
+display:flex;
+color: ghostwhite;
+}
+
+#bio img{
+height: 200px;
+}
+
+#bio-choose{ 
+    width:100%;
+    display:flex;
+flex-direction: column;
+justify-content: space-between;
+margin-left: .5rem;
+}
+
+#namedate { 
+display: flex;
+justify-content: space-between;
+padding: 0 7px;
+
+}
+
+#namedate p{
+    color: black;
+    padding-right: 10px;
+
+}
+
+#choose-list{
+    background-color: #006D77;
+    color: black;
+    padding: 1rem 2rem;
+    font-size: smaller;
+
+}
+
+ul{
+    padding: 10px 0 0 17px;
+}
+
+#tech{
+    display: flex;
+    justify-content: space-between;
+}
+
+#tech img { 
+    height: 10rem;
+}
+
+ 
+figure { 
+text-align: center;
+width: 12rem;
+padding: 30px;
+
+}
+
+figcaption {
+    background-color: rgba(0, 0, 0, 0.7);
+color: white;
+position: relative;
+top: -1.5rem;
+
+}
+
+#interest div{
+    background-color: #006D77;
+    color:rgb(255, 255, 255);
+    padding: 1rem;
+    margin-top: 1rem;
+
+}
+
+#interest h2{
+    color:#101D42;
+    padding-left: 1rem;
+}
+
+.interesttext{
+    padding-top: 20px;
+
+}
+
+#fakeportfolio {
+    background-color: rgb(0, 15, 58);
+    padding: 0.5rem;
+}
+
