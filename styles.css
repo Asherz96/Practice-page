@@ -7,40 +7,39 @@
 body {
 width: 80vw;
 margin: 0 auto;
-background-color: #7BE0AD;
+background-color: #6b705c;
 }
 
 header{
-    color: rgb(0, 0, 0);
-    background-color: #AEE5D8;
+    background-color: #a5a58d;
     text-align: center;
+    padding: 2rem;
 }
 
 header img {
 height: 100px;
-
 }
 
 h1{
     color:rgb(255, 255, 255);
-    background-color: #006D77;
+    background-color: #4a4e69;
     text-align: center;
 }
 
 h2{
-color:rgb(0, 0, 0);
+color:black;
 }
 
 h4{
-    color: rgb(181, 253, 255);
+    color: #31332a;
 }
 
 main{
-    background-color:#AEE5D8;
+    background-color:#a5a58d;
 
 }
 section {
-    margin-top: 2rem;
+    /* margin-top: 2rem; */
 }
 
 #bio{
@@ -49,7 +48,8 @@ color: ghostwhite;
 }
 
 #bio img{
-height: 200px;
+height: 210px;
+margin-left: 0.5rem;
 }
 
 #bio-choose{ 
@@ -57,7 +57,8 @@ height: 200px;
     display:flex;
 flex-direction: column;
 justify-content: space-between;
-margin-left: .5rem;
+margin-left: 0.5rem;
+margin-right: 0.5rem;
 }
 
 #namedate { 
@@ -74,15 +75,19 @@ padding: 0 7px;
 }
 
 #choose-list{
-    background-color: #006D77;
+    background-color: #868669;
     color: black;
-    padding: 1rem 2rem;
+    padding: 1rem 1rem;
     font-size: smaller;
 
+}
+#choose-list li{
+    list-style-type: circle;
 }
 
 ul{
     padding: 10px 0 0 17px;
+   
 }
 
 #tech{
@@ -107,29 +112,39 @@ figcaption {
 color: white;
 position: relative;
 top: -1.5rem;
+font-size: small;
+text-align: left;
+padding: 5px;
 
 }
 
 #interest div{
-    background-color: #006D77;
-    color:rgb(255, 255, 255);
+    background-color: #868669;
     padding: 1rem;
     margin-top: 1rem;
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
 
 }
 
 #interest h2{
-    color:#101D42;
+    color: black;
     padding-left: 1rem;
 }
 
 .interesttext{
     padding-top: 20px;
+    font-style: italic;
+    font-size: smaller;
+   
 
 }
 
 #fakeportfolio {
-    background-color: rgb(0, 15, 58);
-    padding: 0.5rem;
+    background-color:#a5a58d;
+    padding: 1rem;
+    text-align: center;
+    font-size: x-small;
+    color:black;
 }
 
